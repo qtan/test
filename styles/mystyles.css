@@ -26,3 +26,62 @@ hr {
     border-top: 1px solid #f42434;
     padding: 0px margin: 0px
 }
+
+.history {
+    position: absolute;
+    top: 74px;
+    left: 635px;
+    height: 21px;
+    font-family: Voltaire;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #3e3934;
+}
+
+.menu {
+    position: absolute;
+    top: 74px;
+    left: 786px;
+    height: 21px;
+    font-family: Voltaire;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #3e3934;
+}
+
+.contact {
+    position: absolute;
+    top: 74px;
+    left: 916px;
+    height: 21px;
+    font-family: Voltaire;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #3e3934;
+}
+
+a:link {
+    color: #3e3934;
+    text-decoration: none;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #3e3934;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #eb0102;
+}
+
+a:active {
+    text-decoration: none;
+    color: #eb0102;
+}
