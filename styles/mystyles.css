@@ -1,0 +1,28 @@
+body {
+    text-align: center;
+    padding: 0px 0px 0px 0px;
+    z-index: 0;
+}
+
+#logo {
+    width: 278px;
+    height: : 151px;
+    position: absolute;
+    left: 205px;
+    top: 9px;
+}
+
+.line {
+    width: auto;
+    height: 1px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #f42434;
+    overflow: hidden;
+}
+
+hr {
+    height: 2px;
+    border-top: 1px solid #f42434;
+    padding: 0px margin: 0px
+}
