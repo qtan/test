@@ -85,3 +85,88 @@ a:active {
     text-decoration: none;
     color: #eb0102;
 }
+
+#food1 {
+    height: 856px;
+}
+
+#food2 {
+    width: 477px;
+    height: 319px;
+    opacity: 0.95;
+}
+
+#food3 {
+    width: 289px;
+    height: 414px;
+}
+
+#words {
+    width: 707px;
+    height: 362px;
+}
+
+#left_bg {
+    position: absolute;
+    left: 0px;
+    top: 627px;
+    height: 2543px;
+    width: 198px;
+    background-color: #eae8e6
+}
+
+#right_bg {
+    position: absolute;
+    left: 1398px;
+    top: 627px;
+    height: 2543px;
+    width: 198px;
+    background-color: #eae8e6
+}
+
+.short_line {
+    width: 186px;
+    height: 2px;
+    margin: 0px auto;
+    padding: 0px;
+    background-color: #f42434;
+    overflow: hidden;
+}
+
+.font1 {
+    width: 184px;
+    height: 61px;
+    color: #3e3934;
+    font-family: Voltage;
+    font-size: 60px;
+    font-weight: 400px;
+    line-height: 69px;
+}
+
+.font2 {
+    width: 650px height: 226px;
+    font-family: Voltaire;
+    font-size: 24px;
+    line-height: 30px;
+    text-transform: uppercase;
+    color: #f33948;
+}
+
+.font3 {
+    width: 650px;
+    text-align: left;
+    color: #3e3934;
+    font-family: Open sans;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.font4 {
+    width: 267px;
+    height: 118px;
+    text-align: left;
+    color: #3e3934;
+    font-family: Open sans;
+    font-size: 16px;
+    line-height: 26px;
+}
