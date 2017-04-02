@@ -1,14 +1,25 @@
+.aligncenter {
+ clear: both;
+ display: block;
+ margin:auto;
+}
 body {
     text-align: center;
     padding: 0px 0px 0px 0px;
     z-index: 0;
-    width: 1600px;
-    height: 3175px;
+    width: 100%;
+    height: auto;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    align-content:center;
+    margin-left:auto; 
+    margin right:auto;
 }
 
 .nav_test {
-    width: 1600px;
-    height: 1px;
+    width: 100%;
+    height: 170px;
+    background-color: white;
 }
 
 #logo {
@@ -16,11 +27,11 @@ body {
     height: : 151px;
     position: absolute;
     left: 205px;
-    top: 9px;
+    top: 0px;
 }
 
 .line {
-    width: 1600px;
+    width: 100%;
     height: 2px;
     margin: 0px auto;
     padding: 0px;
@@ -28,15 +39,11 @@ body {
     overflow: hidden;
 }
 
-hr {
-    height: 2px;
-    border-top: 1px solid #f42434;
-    padding: 0px margin: 0px
-}
+
 
 .history {
     position: absolute;
-    top: 50px;
+    top: 25px;
     left: 635px;
 
     height: 21px;
@@ -50,7 +57,7 @@ hr {
 
 .menu {
     position: absolute;
-    top: 50px;
+    top: 25px;
     left: 786px;
     height: 21px;
     font-family: Voltaire;
@@ -63,7 +70,7 @@ hr {
 
 .contact {
     position: absolute;
-    top: 50px;
+    top: 25px;
     left: 916px;
     height: 21px;
     font-family: Voltaire;
@@ -97,7 +104,15 @@ a:active {
 }
 
 #food1 {
-    height: 856px;
+    
+    display: block;
+    margin:0 auto;
+    width: 100%;
+    height: auto;
+    align-self: center;
+    min-width: 1600px;
+    opacity: 0.40;
+    z-index: -1;
 }
 
 #food2 {
@@ -114,24 +129,31 @@ a:active {
 #words {
     width: 707px;
     height: 362px;
+
 }
 
 #left_bg {
     position: absolute;
     left: 0px;
-    top: 627px;
-    height: 2543px;
+    top:  1007px;
+    height: 2000px;
+    max-width: 13%;
     width: 198px;
     background-color: #eae8e6;
+    z-index: -2;
+
 }
 
 #right_bg {
     position: absolute;
-    left: 1398px;
-    top: 627px;
-    height: 2543px;
+    left: 91%;
+    top:  1007px;
+    height: 2000px;
+    overflow:hidden;
+    max-width: 13%;
     width: 198px;
     background-color: #eae8e6;
+    z-index: -2;
 }
 
 .short_line {
@@ -265,7 +287,8 @@ a:active {
 }
 
 #map {
-    width: 1600px;
+    width: 100%;
+    min-width: 1600px;
     height: 604px;
 }
 
@@ -274,7 +297,9 @@ a:active {
     height: 45px;
 }
 
-#bot_bg {
-    width: 1600px;
+.bot_bg {
+    width: 100%;
     height: 72px;
+    background-color: white;
+    z-index: -1;
 }

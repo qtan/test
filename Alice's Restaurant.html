@@ -4,7 +4,7 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
     <title>Alice's Restaurant</title>
     <link href="styles/mystyles.css" rel="stylesheet">
    <link href='http://fonts.googleapis.com/css?family=Open Sans|Pacifico|Voltaire' rel='stylesheet' type='text/css'>
@@ -13,46 +13,48 @@
 
 <body>
     <a name="top"></a>
+
     <div class="nav_test" style="position:;left:0px; top:0px;">
 
         <!--top -->
-        <div class="line" style="position:relative; left:0px; top:40px"></div>
-        <div class="line" style="position:relative; left:0px; top:46px"></div>
-        <div class="line" style="position:relative; left:0px; top:106px"></div>
-        <div class="line" style="position:relative; left:0px; top:112px"></div>
-        <img src="images/left.png" alt="left_bg" id="left_bg">
-        <img src="images/right.png" alt="right_bg" id="right_bg">
-        <img src="images/mid-background.png" alt="background" id="mid-bg">
+        <div class="line" style="position:relative; left:0px; top:20px"></div>
+        <div class="line" style="position:relative; left:0px; top:26px"></div>
+        <div class="line" style="position:relative; left:0px; top:86px"></div>
+        <div class="line" style="position:relative; left:0px; top:92px"></div>
+     
+        <div alt="left_bg" id="left_bg"></div>
+       <div  alt="right_bg" id="right_bg"></div>
+       
 
         <img src="images/logo.png" alt="logo" id="logo">
-        <a href="#history"><p class="history">History</a>
-        <a href="#menu" ><p class="menu">menu</a>
-        <a href="#contact" ><p class="contact">contact</a>
+        <a href="#history"><p class="history"><b>History</b></p></a>
+        <a href="#menu" ><p class="menu"><b>menu</b></p></a>
+        <a href="#contact" ><p class="contact"><b>contact</b></p></a>
 
     </div>
     <!--pics-->
     <div>
-        <div style="position:absolute; left:0px; top:160px">
+        <div >
 
-            <img src="images/food1.png" alt="hamburger" id="food1">
+            <img src="images/orignal.png" alt="hamburger" id="food1" style="position:absolute; left:0px; top:0px">
         </div>
-        <div style="position:absolute; left:432px;top:294px;">
+        <div style="position:absolute;left:30%;top:294px;">
             <img src="images/yourfavouriteneighbourhoodrestaurant.png" alt=words id="words">
         </div>
     </div>
     <!--content-->
-    <div>
+    <div >
         <!--history-->
-        <div>
+        <div class>
             <a name="history"></a>
-            <img src="images/hist-bg.png" style="position:absolute; left:390px; top:750px">
-             <img src="images/history.png" style="position:absolute; left:705px;top:880px;">
+            <img src="images/hist-bg.png" style="position:absolute; left:500px; top:750px">
+             <img src="images/history.png" style="position:absolute; left:815px;top:880px;">
             <!--        font?-->
-            <div class="short_line" style="position:absolute; left:704px; top:857px"></div>
+            <div class="short_line" style="position:absolute; left:814px; top:857px"></div>
 
-            <div class="short_line" style="position:absolute; left:704px; top:948px"></div>
-            <p class="font2" style="position: relative;top: 963px;left:0px;"><b>Etiam elemrntum enim at aliquam elemrntum vitae. </b></p>
-            <p class="font3" style="position: absolute;top: 1033px;left:471px;">
+            <div class="short_line" style="position:absolute; left:814px; top:948px"></div>
+            <p class="font2" style="position: absolute;top: 962px;left:665px;"><b>Etiam elemrntum enim at aliquam elemrntum vitae. </b></p>
+            <p class="font3" style="position: absolute;top: 1033px;left:581px;">
 
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse dictum eros est, in suscipit massa hendrerit a. Ut maximus nulla erat, rutrum faucibus eros.Ut maximus nulla erat, rutrum faucibus eros.faucibus eros.Ut maximus nulla erat, rutrum faucibus
                 <br/>
@@ -65,17 +67,17 @@
         <!--menu-->
         <div>
             <a name="menu"></a>
-            <img src="images/menu_bg.png" style="position:absolute; left:266px; top:1506px">
-            <img src="images/food2.png" alt=food2 id="food2" style="position:absolute; left:873px;top:1310px;">
-             <img src="images/Menu.png" style="position:absolute; left:411px;top:1628px;">
+            <img src="images/menu_bg.png" style="position:absolute; left:376px; top:1506px">
+            <img src="images/food2.png" alt=food2 id="food2" style="position:absolute; left:983px;top:1310px;">
+             <img src="images/Menu.png" style="position:absolute; left:521px;top:1628px;">
             <!--        font?-->
-            <div class="short_line" style="position:absolute; left:393px; top:1601px"></div>
+            <div class="short_line" style="position:absolute; left:503px; top:1601px"></div>
 
-            <div class="short_line" style="position:absolute; left:393px; top:1697px"></div>
-            <p class="font4" style="position: absolute;top: 1739px;left:373px;">
+            <div class="short_line" style="position:absolute; left:503px; top:1697px"></div>
+            <p class="font4" style="position: absolute;top: 1739px;left:483px;">
                 Menu description intro text here. Menu description intro text here.Menu description intro.
                 <br/>
-                <br/><b>Menu Link HereMenu Link Here</b>
+                <br/><b><!--add menu link inside href--><a href="#menu">Menu Link HereMenu Link Here</b>
             </p>
 
         </div>
@@ -83,16 +85,16 @@
         <!--contact-->
         <div>
             <a name="contact"></a>
-            <img src="images/contact_bg.png" style="position:absolute;left:457px;top: 2029px;" alt="contact_bg" id="contact_bg">
+            <img src="images/contact_bg.png" style="position:absolute;left:567px;top: 2029px;" alt="contact_bg" id="contact_bg">
 
-            <img src="images/food3.png" alt=food3 id="food3" style="position:absolute; left:678px;top:1685px;">
-             <img src="images/contact.png" style="position:absolute; left:719px;top:2180px;">
-            <div class="short_line" style="position:absolute; left:713px; top:2155px"></div>
-            <div class="short_line" style="position:absolute; left:713px; top:2246px"></div>
+            <img src="images/food3.png" alt=food3 id="food3" style="position:absolute; left:788px;top:1685px;">
+             <img src="images/contact.png" style="position:absolute; left:829px;top:2180px;">
+            <div class="short_line" style="position:absolute; left:823px; top:2155px"></div>
+            <div class="short_line" style="position:absolute; left:823px; top:2246px"></div>
             <div>
                 <!--content-->
-                <p class="font_contact_content" style="position:absolute; left:526px; top:2306px;">Alice's Restaurant is at the south end of Nichol Street, just minutes from downtown (about 7 blocks). It's just north of the Best Western Hotel and Petroglyph Park.</p>
-                <p class="open_hours" style="position:absolute; left:853px; top:2307px;">
+                <p class="font_contact_content" style="position:absolute; left:636px; top:2306px;">Alice's Restaurant is at the south end of Nichol Street, just minutes from downtown (about 7 blocks). It's just north of the Best Western Hotel and Petroglyph Park.</p>
+                <p class="open_hours" style="position:absolute; left:963px; top:2307px;">
                     <font color="red"><b>Open 6:30 AM to 8:00 PM, 7 Days a week!</b></font>
 
                     <br> <i class="icon_address"></i>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.google.ca/maps/place/728+Nicol+St,+Nanaimo,+BC+V9R+4V1/@49.1475457,-123.9431461,15.5z/data=!4m18!1m12!4m11!1m3!2m2!1d-123.9255967!2d49.1529326!1m6!1m2!1s0x5488a40641b76129:0xad0967293bb4ec19!2s728+Nicol+St,+Nanaimo,+BC+V9R+4V1!2m2!1d-123.9341368!2d49.1492837!3m4!1s0x5488a40641b76129:0xad0967293bb4ec19!8m2!3d49.1492837!4d-123.9341368" target="_blank">728 Nicol St, Nanaimo, BC
@@ -108,25 +110,28 @@
 
         <div>
             <!--map-->
-            <img src="images/map.png" style="position:absolute;left:0px;top: 2493px;" alt="map" id="map">
+            <img src="images/map-slide.jpg" style="position:absolute;left:0px;top: 2493px;" alt="map" id="map">
+            <!--
             <img src="images/map_point.png" style="position:absolute;left:849px;top: 2777px;" alt="map_point" id="map_point">
+            -->
+             <div class="bot_bg" style="position:absolute; left:0px; top:3095px">
         </div>
         <!--bottom-->
         <div>
-            <img src="images/bottom.png" style="position:absolute;left:0px;top: 3098px;" alt="bot_bg" id="bot_bg">
+
+            
             <div class="line" style="position:absolute; left:0px; top:3095px"></div>
             <div class="line" style="position:absolute; left:0px; top:3100px"></div>
             <div class="line" style="position:absolute; left:0px; top:3185px"></div>
             <div class="line" style="position:absolute; left:0px; top:3190px"></div>
-            <p class="font_adv" style="position:absolute;left:540px; top:3117px;">DESIGNED AND DEVELOPED BY ARRAY WEB + CREATIVE</p>
-            <a href="#top"><img src="images/triangle_top.png" style="position:absolute;left:1265px;top: 3128px;" alt="go_top" id="go_top">
-            <p class="font_top" style="position:absolute; left:1315px; top:3140px;">TOP</p></a>
+            
+            <p class="font_adv" style="position:absolute;left:650px; top:3117px;">DESIGNED AND DEVELOPED BY ARRAY WEB + CREATIVE</p>
+            <a href="#top"><img src="images/triangle_top.png" style="position:fixed;right:200px;bottom: 0px;" alt="go_top" id="go_top">
+            <p class="font_top" style="position:fixed; right:250px; bottom :0px;">TOP</p></a>
         </div>
 
 
     </div>
-
-
 
 
 
