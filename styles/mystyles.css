@@ -111,7 +111,7 @@ a:active {
     height: auto;
     align-self: center;
     min-width: 1600px;
-    opacity: 0.40;
+    
     z-index: -1;
 }
 
@@ -135,8 +135,8 @@ a:active {
 #left_bg {
     position: absolute;
     left: 0px;
-    top:  1007px;
-    height: 2000px;
+    top:  0px;
+    height: 2500px;
     max-width: 13%;
     width: 198px;
     background-color: #eae8e6;
@@ -146,9 +146,9 @@ a:active {
 
 #right_bg {
     position: absolute;
-    left: 91%;
-    top:  1007px;
-    height: 2000px;
+    left: 89%;
+    top:  0px;
+    height: 2500px;
     overflow:hidden;
     max-width: 13%;
     width: 198px;
